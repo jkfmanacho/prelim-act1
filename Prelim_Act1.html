@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prelim Activity 1 - HTML</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body {
+            font-size: 16px;
+            background-color: #fff5d9;
+            color: #3e3013;
+            font-family: 'Poppins', 'Arial', sans-serif;
+            padding: 20px;
+        }
+        .table-container {
+            background: #fdf2e9;
+            border-radius: 20px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 20px auto;
+            width: 70%;
+            line-height: 1.5em;
+            text-align: justify;
+            outline: 2px dashed #3e3013;
+            outline-offset: -15px;
+        }
+        table, td, th, tr{
+            margin: 20px auto;
+            padding: 20px;
+            border: 3px solid #ff8daa;
+            border-collapse: collapse;
+        }
+        img {
+            width: 320px;
+            height: 240px;
+        }
+        .go-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #ff8daa;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            transition: background-color 0.3s ease;
+        }
+        .go-to-top:hover {
+            background-color: #e67c9c;
+        }
+        .header-text {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="header-text">Jannah's Grand Tour: Ten Tickets to Somewhere Spectacular!</h1>
+    <h2 style="text-align: center;">My Travel Bucket List</h2>
+    <div align="center" class="table-container">
+        <table>
+            <thead>
+                <tr style="text-align: center;">
+                    <th style="width: 70px;">City</th>
+                    <th>Country</th>
+                    <th>Famous Landmark</th>
+                    <th style="width: 550px;">Quick Facts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kyoto</td>
+                    <td>Japan</td>
+                    <td><a href="IMAGES/nijo-castle.jpg" target="_blank"><img src="IMAGES/nijo-castle.jpg" title="Nijo Castle"><figcaption style="text-align: center;">Nijo Castle</figcaption></a></td>
+                    <td>
+                        <ul>
+                            <li>Nijo Castle was the home of Tokugawa Ieyasu, the first in a line of powerful Tokugawa shogun that ruled the country for over 200 years</li>
+                            <li>The grounds house a renowned Japanese landscape garden, the Ninomaru Palace Garden</li>
+                            <li>The castle is a prime example of the architecture and design of the Edo period.</li>
+                            <li>It was designated as a UNESCO World Heritage site in 1994, recognizing its cultural and historical significance. </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Athens</td>
+                    <td>Greece</td>
+                    <td><a href="IMAGES/acropolis.jpg"><img src="IMAGES/acropolis.jpg" title="Acropolis"><figcaption style="text-align: center;">The Acropolis</figcaption></a></td>
+                     <td>
+                        <ul>
+                            <li>The Parthenon’s architects, Iktinos and Kallikrates, designed the temple with built-in earthquake resistance.</li>
+                            <li>The village's homes were built with stone and wood, featuring narrow windows and limited balconies, resembling fortresses to protect against pirates and other threats. </li>
+                            <li>The Tower of the Winds, located on the slopes of the Acropolis, is the world’s oldest weather station</li>
+                            <li>Over centuries, the Parthenon has undergone several transformations. During the Byzantine Empire, it became a Christian church. Under the Ottoman Empire, it was converted into a mosque.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ithaca</td>
+                    <td>Greece</td>
+                    <td><a href="IMAGES/paleochora.jpg"><img src="IMAGES/paleochora.jpg" title="Paleochora"><figcaption style="text-align: center;">Paleochora</figcaption></a></td>
+                    <td>
+                        <ul>
+                            <li>Paleochora, meaning "Old Village," was the historical capital of Ithaca, Greece, during the Middle Ages and the early Venetian period.</li>
+                            <li>Paleochora served as Ithaca's capital until the 16th century when residents began to relocate to coastal areas. </li>
+                            <li>Several Byzantine churches, including the Dormition of the Virgin Mary (Palea Panagia), remain, showcasing ecclesiastical architecture and post-Byzantine frescoes. </li>
+                            <li>Situated on a slope opposite Perachori, the village offered a clear view of the sea, allowing residents to monitor approaching ships and potential threats. </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Santiago de Compostela</td>
+                    <td>Spain</td>
+                    <td><img src="IMAGES/santiago-cathedral.jpg" title="Santiago de Compostela Cathedral"><figcaption style="text-align: center;">Santiago de Compostela Cathedral</figcaption></td>
+                    <td>
+                        <ul>
+                            <li>Construction of the Cathedral of Santiago de Compostela began in 1057 on the foundations of a small church previously dedicated to the Apostle James. The first phase of construction took 36 years.</li>
+                            <li>Pilgrims were expected to arrive at any time of the day or night. They traditionally spent the first night praying and contemplating in the Cathedral of Santiago de Compostela. The doors of the church were never locked.</li>
+                            <li>The cathedral of Santiago de Compostela adorns the Spanish cent coins.</li>
+                            <li>In 1985 the Cathedral of Santiago de Compostela was declared a UNESCO World Heritage Site along with the old town of Santiago .</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td>Brazil</td>
+                    <td><img src="IMAGES/corcovado-mountain.jpeg" title="Corcovado Mountain"><figcaption style="text-align: center;">Corcovado Mountain</figcaption></td>
+                    <td>
+                        <ul>
+                            <li>Mount Corcovado (“Hunchback”) is named for its shape. On its narrow summit towers the imposing statue of Christ the Redeemer, 98 feet (30 metres) tall.</li>
+                            <li>In 2007, Rio’s Christ the Redeemer statue was declared one of the New Seven Wonders of the World along with the Great Wall of China, the Taj Mahal, Machu Picchu, Petra, Chichén Itzá, and the Colosseum.</li>
+                            <li>Christ the Redeemer is struck by lightning an average of three to six times per year.</li>
+                            <li>Rio’s Christ the Redeemer isn’t even the tallest Jesus statue in Brazil. Christ the Protector in Encantado, Brazil, stands about 20 feet taller than Rio’s statue.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rome</td>
+                    <td>Italy</td>
+                    <td><img src="IMAGES/colosseum.jpg" title="Colosseum"><figcaption style="text-align: center;">The Colosseum</figcaption></td>
+                    <td>
+                        <ul>
+                            <li>Construction of the Colosseum began in 72AD, and it was completed in 80AD.</li>
+                            <li>The Colosseum was originally known as the Flavian Amphitheater, because it was built by Emperors Vespasian, Titus, and Domitian, successors to Nero of the Flavian dynasty.</li>
+                            <li>It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world, despite its age.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cusco</td>
+                    <td>Peru</td>
+                    <td><img src="IMAGES/machu-picchu.jpg" title="Machu Picchu"><figcaption style="text-align: center;">Machu Picchu</figcaption></td>
+                    <td>
+                        <ul>
+                            <li>Machu Picchu was built in the late 15th century and all signs point to it being abandoned merely a century later.</li>
+                            <li>Contrary to popular belief, Machu Picchu was never really 'lost.' While it gained worldwide attention after being 'discovered' by Hiram Bingham in 1911, locals were well aware of its existence.</li>
+                            <li>Its purpose is unknown. Theories abound, but no one knows for sure. Some historians believe it was a royal estate for the Inca emperor Pachacuti, while others argue it was a religious retreat. </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Copenhagen</td>
+                    <td>Denmark</td>
+                    <td><img src="IMAGES/tivoli-gardens.jpeg" title="Tivoli Gardens"><figcaption style="text-align: center;">Tivoli Gardens</figcaption></td>
+                    <td>
+                        <ul>
+                            <li>Tivoli Gardens opened on August 15, 1843, and was founded by Georg Carstensen. It's the second-oldest amusement park in the world, with the oldest, Dyrehavsbakken, also located in Denmark. </li>
+                            <li>The person who created Tivoli was Georg Carstensen. He got permission from King Christian VIII to build the park. He told the King that "when people are having fun, they don't think about politics." The King agreed and let Carstensen use a large area of land. This land was outside the city walls at the time.</li>
+                            <li>When Tivoli first opened, it was called "Tivoli & Vauxhall." The name "Tivoli" came from a famous garden in Paris. That garden was named after a town near Rome, Italy. The "Vauxhall" part was inspired by Vauxhall Gardens in London.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Honolulu</td>
+                    <td>Hawaii</td>
+                    <td><img src="IMAGES/waikiki-beach.jpg" title="Waikiki Beach"><figcaption style="text-align: center;">Waikiki Beach</figcaption></td>
+                    <td>
+                        <li>The name Waikiki means "spouting waters" in Hawaiian, referring to the freshwater streams and springs that once flowed into the ocean.</li>
+                        <li>The white sand on Waikiki Beach is partially imported due to erosion. Sand has been added from Manhattan Beach, California.</li>
+                        <li>Waikiki is considered the birthplace of modern surfing, with famous figures like Duke Kahanamoku popularizing the sport in the early 20th century.</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bali</td>
+                    <td>Indonesia</td>
+                    <td><img src="IMAGES/pandawa-beach.jpg" title="Pandawa Beach"><figcaption style="text-align: center;">Pandawa Beach</figcaption></td>
+                    <td>
+                        <li>The beach is named after the five Pandawa brothers from the Hindu epic Mahabharata, and statues of them, along with their mother Kunti, are carved into the cliffs.</li>
+                        <li>Pandawa Beach was once a small village of fishermen who grew seaweed.</li>
+                        <li>Compared to other popular beaches like Kuta, Pandawa is known for its calmer waters and family-friendly atmosphere.</li>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <a href="#top" class="go-to-top">Go to Top</a>
+</body>
+</html>
